@@ -1,6 +1,6 @@
 services:
   nginx-rp:
-    image: stable-alpine
+    image: nginx:stable-alpine
     container_name: nginx-rp
     hostname: nginx-rp
     ports:
