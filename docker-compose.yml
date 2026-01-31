@@ -15,4 +15,4 @@ services:
 
 networks:
   nginx-rp-net:
-    external: true
+    external: true # указывает на использование существующей сети, а не на создание новой
