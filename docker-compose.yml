@@ -15,5 +15,5 @@ services:
 
 networks:
   default:
-    nginx-rp-net:
-      driver: bridge
+    name: nginx-rp-net
+    driver: bridge
