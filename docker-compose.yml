@@ -14,6 +14,6 @@ services:
       - '/etc/letsencrypt:/etc/letsencrypt'
 
 networks:
-  nginx-rp-net:
-    name: nginx-rp-net
-    driver: bridge
+  default:
+    nginx-rp-net:
+      driver: bridge
